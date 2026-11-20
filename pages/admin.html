@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Painel Administrativo | Bar do Furlan</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="admin-body">
+
+    <header>
+        <h1>BAR DO FURLAN</h1>
+
+        <nav>
+            <a href="../index.html">Ver site</a>
+            <a href="cardapio.html">Cardápio</a>
+            <a href="eventos.html">Eventos</a>
+            <a href="sobre.html">Sobre e Contato</a>
+        </nav>
+    </header>
+
+    <main class="admin-container">
+
+        <section class="admin-intro">
+            <div>
+                <h2>Painel Administrativo</h2>
+                <p>Gerenciamento do Bar do Furlan</p>
+            </div>
+            <span class="admin-status">VISUALIZAÇÃO DEMONSTRATIVA</span>
+        </section>
+
+        <!-- INDICADORES -->
+        <section class="admin-indicadores">
+
+            <article class="indicador">
+                <span>Produtos cadastrados</span>
+                <strong>16</strong>
+            </article>
+
+            <article class="indicador">
+                <span>Produtos disponíveis</span>
+                <strong>14</strong>
+            </article>
+
+            <article class="indicador">
+                <span>Categorias</span>
+                <strong>5</strong>
+            </article>
+
+            <article class="indicador">
+                <span>Eventos cadastrados</span>
+                <strong>6</strong>
+            </article>
+
+        </section>
+
+        <!-- ACESSO RÁPIDO -->
+        <section class="admin-section">
+            <h2>Acesso rápido</h2>
+
+            <div class="admin-acoes">
+
+                <a href="#produtos" class="admin-acao">
+                    <strong>Produtos</strong>
+                    <span>Visualizar cardápio</span>
+                </a>
+
+                <a href="#categorias" class="admin-acao">
+                    <strong>Categorias</strong>
+                    <span>Organizar produtos</span>
+                </a>
+
+                <a href="#eventos" class="admin-acao">
+                    <strong>Eventos</strong>
+                    <span>Visualizar eventos</span>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- PRODUTOS -->
+        <section class="admin-section" id="produtos">
+
+            <div class="admin-section-title">
+                <h2>Produtos cadastrados</h2>
+                <a href="cardapio.html">Ver cardápio</a>
+            </div>
+
+            <div class="admin-tabela-wrapper">
+                <table class="admin-tabela">
+
+                    <thead>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Categoria</th>
+                            <th>Preço</th>
+                            <th>Disponibilidade</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Prato Feito de Frango</td>
+                            <td>Refeições</td>
+                            <td>R$ 28,00</td>
+                            <td><span class="disponivel">Disponível</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Batata Frita</td>
+                            <td>Porções</td>
+                            <td>R$ 22,00</td>
+                            <td><span class="disponivel">Disponível</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>X-Burger</td>
+                            <td>Lanches</td>
+                            <td>R$ 18,00</td>
+                            <td><span class="disponivel">Disponível</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Feijoada Completa</td>
+                            <td>Refeições</td>
+                            <td>R$ 38,00</td>
+                            <td><span class="indisponivel-tag">Indisponível</span></td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+
+        </section>
+
+        <!-- CATEGORIAS -->
+        <section class="admin-section" id="categorias">
+            <h2>Categorias do cardápio</h2>
+
+            <div class="admin-categorias">
+                <span>Refeições</span>
+                <span>Porções</span>
+                <span>Lanches</span>
+                <span>Salgados</span>
+                <span>Bebidas</span>
+            </div>
+        </section>
+
+        <!-- EVENTOS -->
+        <section class="admin-section" id="eventos">
+
+            <div class="admin-section-title">
+                <h2>Eventos cadastrados</h2>
+                <a href="eventos.html">Ver eventos</a>
+            </div>
+
+            <div class="admin-eventos">
+                <article>
+                    <h3>Roda de Samba</h3>
+                    <p>28 de novembro de 2026</p>
+                </article>
+
+                <article>
+                    <h3>Noite do Karaokê</h3>
+                    <p>05 de dezembro de 2026</p>
+                </article>
+
+                <article>
+                    <h3>Confraternização de Fim de Ano</h3>
+                    <p>19 de dezembro de 2026</p>
+                </article>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Bar do Furlan - Área administrativa</p>
+    </footer>
+
+</body>
+</html>
